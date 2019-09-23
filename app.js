@@ -66,7 +66,7 @@ app.get('/imdb', function(req, res){
 
       res.send(data);
 
-      fs.writeFile('imdb-output.js', 'var imdb list = [' + data + ']',  function(error){
+      fs.writeFile('imdb-output.js', 'var imdb_list = [' + data + ']',  function(error){
         console.log('File written on hard drive!');
       });
 
