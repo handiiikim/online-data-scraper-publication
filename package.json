@@ -1,0 +1,14 @@
+{
+    "name": "handi-kilia",
+    "version": "0.0.1",
+    "homepage": "https://github.com/handiiikim/online-data-scraper-publication",
+    "description": "learning-together",
+    "author": "Handiiikim",
+    "main": "app.js",
+    "dependencies": {
+        "nodemon": "latest",
+        "express": "latest",
+        "request": "latest",
+        "cheerio": "latest"
+    }
+}
